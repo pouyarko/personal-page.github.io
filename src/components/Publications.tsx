@@ -10,7 +10,7 @@ const Publications = () => {
       conference: "the 2nd GCC International Conference on IEOM Muscat, Oman",
       year: "2024",
       abstract: "This paper introduces the UDiNet architecture, a dilated variant of the U-Net, specifically designed to address image denoising challenges.",
-      pdfUrl: "/publications/udinet.pdf",
+      pdfUrl: "./publications/udinet.pdf",
       fileName: "UDiNet_Paper.pdf"
     }
   ];
