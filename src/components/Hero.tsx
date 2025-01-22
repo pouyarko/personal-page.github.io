@@ -14,7 +14,7 @@ const Hero = () => {
   const handleDownloadCV = async (e: React.MouseEvent) => {
     e.preventDefault(); // Prevent default button behavior
     try {
-      const response = await fetch('/cv.pdf');
+      const response = await fetch('./cv.pdf');
       const blob = await response.blob();
       const url = window.URL.createObjectURL(blob);
       const link = document.createElement('a');
@@ -37,7 +37,7 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-12 mb-6 md:mb-8">
             <div className="w-32 h-32 md:w-48 md:h-48 rounded-full bg-gradient-to-r from-cyan-500 to-purple-600 p-1 flex-shrink-0 shadow-lg">
               <img 
-                src="/profile1.jpg" 
+                src="./profile1.jpg" 
                 alt="Profile" 
                 className="w-full h-full rounded-full object-cover"
               />
