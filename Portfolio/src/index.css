@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  @apply bg-gray-900;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* Container for all sections */
+.sections-wrapper {
+  position: relative;
+  height: 400vh; /* Reduced height for better mobile experience */
+}
+
+/* Individual section styling */
+.section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Fixed position container for content */
+.fixed-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s ease-out;
+  will-change: opacity;
+  padding: 5rem 1rem 1rem 1rem; /* Added padding to account for header */
+}
+
+.glass-card {
+  @apply bg-gray-900/40 backdrop-blur-md border border-gray-700/50;
+  max-height: calc(100vh - 6rem); /* Ensure card doesn't overflow viewport */
+  overflow-y: auto; /* Enable scrolling if content is too tall */
+}
+
+/* Gradient text animation */
+.gradient-text {
+  @apply bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent;
+  background-size: 200% 100%;
+  animation: gradient 8s linear infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .container {
+    @apply px-4;
+  }
+  
+  .glass-card {
+    @apply mx-2;
+    padding: 1rem;
+  }
+
+  .fixed-section {
+    padding-top: 4rem;
+  }
+}
+
+/* Scrollbar styling */
+.glass-card::-webkit-scrollbar {
+  width: 6px;
+}
+
+.glass-card::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.glass-card::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
