@@ -37,7 +37,7 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-12 mb-6 md:mb-8">
             <div className="w-32 h-32 md:w-48 md:h-48 rounded-full bg-gradient-to-r from-cyan-500 to-purple-600 p-1 flex-shrink-0 shadow-lg">
               <img 
-                src="./profile3.jpg" 
+                src="./profile2.jpg" 
                 alt="Profile" 
                 className="w-full h-full rounded-full object-cover"
               />
