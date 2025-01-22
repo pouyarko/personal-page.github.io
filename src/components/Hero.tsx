@@ -53,7 +53,7 @@ const Hero = () => {
           </div>
           
           <p className="text-base md:text-xl text-gray-300 mb-6 md:mb-8 leading-relaxed">
-            I'm a final-year Computer Engineering student at the University of Tabriz with a real passion for AI, especially computer vision and robotics. I also love sharing what I learn, and I've been a teaching assistant for courses like Logic Circuits and Computer Architecture, plus I've helped run ICPC prep classes. On a different note, I love dancing!
+            I'm a final-year Computer Engineering student at the University of Tabriz with a passion for AI, especially computer vision and robotics. I also love sharing what I learn, and I've been a teaching assistant for courses like Logic Circuits and Computer Architecture, plus I've helped run ICPC prep classes. On a different note, I love dancing!
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
