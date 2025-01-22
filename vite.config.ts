@@ -7,5 +7,13 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: './', // Add this line to make assets load correctly on GitHub Pages
+  base: './', // Make assets load correctly on GitHub Pages
+  build: {
+    assetsInlineLimit: 0, // Disable inlining assets
+    rollupOptions: {
+      output: {
+        manualChunks: undefined // Disable chunk splitting
+      }
+    }
+  }
 });
