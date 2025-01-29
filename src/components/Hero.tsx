@@ -53,7 +53,7 @@ const Hero = () => {
           </div>
           
           <p className="text-base md:text-xl text-gray-300 mb-6 md:mb-8 leading-relaxed">
-            I'm a final-year Computer Engineering student at the University of Tabriz with a passion for AI, especially computer vision and robotics. I also love sharing what I learn, and I've been a teaching assistant for courses like Logic Circuits and Computer Architecture, plus I've helped run ICPC prep classes. On a different note, I love dancing!
+            I am a final-year Computer Engineering student at the University of Tabriz with a strong passion for Artificial Intelligence, particularly computer vision and robotics. I thrive in academic environments and have a proven track record as a teaching assistant for courses such as Logic Circuits and Computer Architecture. I have also actively contributed to the success of the ICPC prep classes. Beyond academics, I find joy in dancing and believe that creativity and problem-solving are essential in both my personal and professional pursuits. 
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
