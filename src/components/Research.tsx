@@ -21,9 +21,9 @@ const Research = () => {
     {
       icon: GraduationCap,
       title: 'Teaching Experience',
-      shortDesc: 'Teaching Assistant for Algorithm Design and Analysis',
+      shortDesc: 'Teaching Assistant for Logic circuits and computer architecture course',
       id: 'teaching',
-      fullDesc: `I have served as a Teaching Assistant for multiple courses, focusing on algorithm design and competitive programming.
+      fullDesc: `I have served as a Teaching Assistant for multiple courses, focusing on hardware design and competitive programming.
       
       • Teaching Assistant for Logic circuits and computer architecture course (Jan. 2023 - present)
       • Conducted weekly problem-solving sessions for ICPC preparation
@@ -34,7 +34,7 @@ const Research = () => {
     {
       icon: Code,
       title: 'Competitive Programming',
-      shortDesc: 'Interested in the competitive side of programming',
+      shortDesc: 'Experienced in the competitive side of programming',
       id: 'algorithms',
       fullDesc: `I have participated in different programming contests and helped organize competitive programming events.
       
