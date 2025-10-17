@@ -20,8 +20,8 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-white">Email</h3>
-                <a href="mailto:pouyarashidikia@gmail.com" className="text-gray-400 hover:text-cyan-400 transition-colors">
-                  pouyarashidikia@gmail.com
+                <a href="mailto:pouya.rashidikia@ce.sharif.edu" className="text-gray-400 hover:text-cyan-400 transition-colors">
+                  pouya.rashidikia@ce.sharif.edu
                 </a>
               </div>
             </div>
@@ -42,7 +42,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-white">Location</h3>
-                <p className="text-gray-400">Tabriz, Iran</p>
+                <p className="text-gray-400">Tehran, Iran</p>
               </div>
             </div>
           </div>
